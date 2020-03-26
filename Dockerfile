@@ -3,7 +3,7 @@ ENV DIR="/root"
 
 # We install dependencies separatly for a caching purpose
 
-ADD . ${DIR}
+#ADD . ${DIR}
 
 WORKDIR ${DIR}
 
